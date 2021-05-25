@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Insert title here</title>
+</head>
+<body>
+
+	<ul>
+		<li><a th:href="@{/params/string(texto='Valor desde el index')}">Entrar al params</a></li>
+		<li><a th:href="@{/params/mix-params(saludo='Saludo', numero=20)}">Entrar al params dobles</a></li>
+		<li><a th:href="@{/params/mix-params2(saludo='Saludo', numero=20)}">Entrar al params dobles</a></li>
+	</ul>
+</body>
+</html>
